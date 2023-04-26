@@ -1,0 +1,29 @@
+{
+  "name": "fcc-imperial-metric-converter-boilerplate",
+  "version": "1.0.0",
+  "description": "Metric / Imperial Unit Converter",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "mocha ./tests/ --ui tdd"
+  },
+  "dependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "mocha": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-metricimpconverter"
+  },
+  "keywords": [
+    "node",
+    "freeCodeCamp",
+    "express"
+  ],
+  "license": "MIT"
+}
